@@ -309,7 +309,7 @@ org.freedesktop.ModemManager1.Location                          auth_admin:auth_
 org.freedesktop.ModemManager1.Firmware                          auth_admin
 org.freedesktop.ModemManager1.USSD                              auth_admin_keep # likely not widely used
 # bsc#976945
-org.freedesktop.ModemManager1.Voice				auth_admin:auth_self_keep:yes
+org.freedesktop.ModemManager1.Voice                             auth_admin:auth_self_keep:yes
 # bsc#1156961
 org.freedesktop.ModemManager1.Time                              no:no:auth_self_keep
 
