@@ -201,6 +201,9 @@ org.kde.drkonqi.saveCoreToFile                                  no:no:auth_admin
 org.kde.kameleonhelper.writecolor                               no:yes:yes
 # privileged file operations in KDE used e.g. in Dolphin (bsc#1229913)
 org.kde.kio.admin.commands                                      no:no:auth_admin_keep
+# Samba/CIFS network share mount helper (bsc#1249004)
+org.kde.smb4k.mounthelper.mount                                 no:no:yes
+org.kde.smb4k.mounthelper.unmount                               no:no:yes
 
 # systemd (bsc#641924)
 org.freedesktop.hostname1.set-hostname                          auth_admin
