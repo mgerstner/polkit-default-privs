@@ -909,3 +909,7 @@ io.snapcraft.snapd.manage-fde auth_admin:auth_admin:auth_admin_keep
 # Foomuuri firewall manager (bsc#1254385)
 fi.foobar.Foomuuri1.info yes:yes:yes
 fi.foobar.Foomuuri1.config auth_admin_keep:auth_admin_keep:auth_admin_keep
+
+# power profiles daemon drop-in replacement (bsc#1254768)
+org.freedesktop.UPower.PowerProfiles.sync-profile auth_admin:auth_admin:auth_admin
+org.freedesktop.UPower.PowerProfiles.set-loglevel auth_admin:auth_admin:auth_admin
